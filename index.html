@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Chocolate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="homepage">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.seamless.com/menu/triple-chocolate-crepes-and-waffles-712-morris-park-ave-bronx/6532984">Menu</a></li>
+                <li><a href="https://www.google.com/maps/place/Triple+Chocolate+Crepes+%26+Waffles/@40.8452065,-73.8680282,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2f5f4eb96a569:0xab80e59257af06e8!8m2!3d40.8452065!4d-73.8654533!16s%2Fg%2F11tx51yhz_?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class = "order-now">Order Now</button>
+    </div>
+
+    <!-- Login Button -->
+    <div class="login-button">
+        <button class="login-btn">Log In</button>
+    </div>
+
+
+    <main class="most-popular">
+        <h1>Sneak Peak</h1>
+
+        <!-- Menu Bar with Filter Buttons -->
+        <div class="menu-bar">
+            <button class="filter-btn" data-category="crepes" onclick="filterContent('crepes')">Crepes</button>
+            <button class="filter-btn" data-category="sweets" onclick="filterContent('sweets')">Sweets</button>
+            <button class="filter-btn" data-category="drinks" onclick="filterContent('drinks')">Drinks</button>
+        </div>
+
+        <!-- Popular Content (will change based on menu selection) -->
+        <div class="popular-content" id="popular-content">
+            <!-- Default content loaded for on initial load -->
+            <div class="image-grid">
+                <img src="images/crepe1.jpg" alt="crepe Item 1">
+                <img src="crepe2.jpg" alt="crepe Item 2">
+                <img src="images/crepe3.jpg" alt="crepe Item 3">
+            </div>
+        </div>
+    </main>
+
+    <main class = "socials">
+        <div class = "image">
+            <img src = "images/plateofcrepes.png">
+        </div>
+        <div class = "about">
+            <h1>Explore Triple Chocolate</h1>
+            <h2>At Triple Chocolate, we believe in creating indulgent, <br> 
+                mouthwatering desserts that bring joy to every bite. <br>
+                With a passion for quality ingredients and a love for chocolate in all its forms, <br>
+                 we aim to deliver a sweet experience that's both delicious and memorable. <br>
+                 Whether you're enjoying our rich chocolate cakes, creamy milkshakes, or <br>
+                 decadent truffles, we want every visit to feel like a <br>
+                 celebration of flavor and fun.</h2>
+                 <button class = "Get-Started">Get Started</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
